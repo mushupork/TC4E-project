@@ -1,0 +1,558 @@
+[2018/01/08 23:59:04 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/08 23:59:04 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/08 23:59:04 UTC] [INFO] Enterprise Enabled: true
+[2018/01/08 23:59:04 UTC] [INFO] Current working directory is /mattermost
+[2018/01/08 23:59:04 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/08 23:59:04 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/08 23:59:04 UTC] [INFO] Server is initializing...
+[2018/01/08 23:59:04 UTC] [INFO] Pinging SQL master database
+[2018/01/08 23:59:04 UTC] [INFO] The database schema has been set to version 4.5.0
+[2018/01/08 23:59:04 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/08 23:59:04 UTC] [INFO] Able to write files to local storage.
+[2018/01/08 23:59:04 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/08 23:59:04 UTC] [INFO] Starting up plugins
+[2018/01/08 23:59:05 UTC] [INFO] Activated jira plugin
+[2018/01/08 23:59:05 UTC] [INFO] Starting Server...
+[2018/01/08 23:59:05 UTC] [INFO] RateLimiter is enabled
+[2018/01/08 23:59:05 UTC] [INFO] Server is listening on [::]:80
+[2018/01/08 23:59:05 UTC] [INFO] Initializing job API routes
+[2018/01/08 23:59:05 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/08 23:59:05 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/08 23:59:05 UTC] [INFO] Starting workers
+[2018/01/08 23:59:05 UTC] [INFO] Starting schedulers.
+[2018/01/09 00:03:57 UTC] [INFO] Invalid session err=GetSession: api.context.invalid_token.error, createSessionForUserAccessToken: app.user_access_token.invalid_or_missing, EnableUserAccessTokens=false
+[2018/01/09 00:04:31 UTC] [EROR] /api/v4/users/login:SqlUserStore.GetForLogin code=400 rid=jdx3zz9t67dz5ptqc3z3fitakr uid= ip=76.168.133.254 We couldn't find an existing account matching your credentials. This team may require an invite from the team owner to join. [details: ]
+[2018/01/09 00:05:50 UTC] [EROR] /api/v4/users/login:SqlUserStore.GetForLogin code=400 rid=teb5ewsysby1fgnjbrt45zn63o uid= ip=76.168.133.254 We couldn't find an existing account matching your credentials. This team may require an invite from the team owner to join. [details: ]
+[2018/01/09 00:07:08 UTC] [INFO] Stopping schedulers.
+[2018/01/09 00:07:08 UTC] [INFO] Schedulers stopped.
+[2018/01/09 00:07:08 UTC] [INFO] Stopped workers
+[2018/01/09 00:07:08 UTC] [INFO] Stopping Server...
+[2018/01/09 00:07:08 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 00:07:08 UTC] [INFO] Shutting down plugins
+[2018/01/09 00:07:08 UTC] [INFO] Closing SqlStore
+[2018/01/09 00:07:24 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 00:07:24 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 00:07:24 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 00:07:24 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 00:07:24 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 00:07:24 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 00:07:24 UTC] [INFO] Server is initializing...
+[2018/01/09 00:07:24 UTC] [INFO] Pinging SQL master database
+[2018/01/09 00:07:24 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 00:07:24 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 00:07:24 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 00:07:24 UTC] [INFO] Starting up plugins
+[2018/01/09 00:07:25 UTC] [INFO] Activated jira plugin
+[2018/01/09 00:07:25 UTC] [INFO] Starting Server...
+[2018/01/09 00:07:25 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 00:07:25 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 00:07:25 UTC] [INFO] Initializing job API routes
+[2018/01/09 00:07:25 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 00:07:25 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 00:07:25 UTC] [INFO] Starting workers
+[2018/01/09 00:07:25 UTC] [INFO] Starting schedulers.
+[2018/01/09 00:07:52 UTC] [INFO] Stopping schedulers.
+[2018/01/09 00:07:52 UTC] [INFO] Schedulers stopped.
+[2018/01/09 00:07:52 UTC] [INFO] Stopped workers
+[2018/01/09 00:07:52 UTC] [INFO] Stopping Server...
+[2018/01/09 00:07:52 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 00:07:53 UTC] [INFO] Shutting down plugins
+[2018/01/09 00:07:53 UTC] [INFO] Closing SqlStore
+[2018/01/09 02:12:45 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 02:12:45 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 02:12:45 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 02:12:45 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 02:12:45 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 02:12:45 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 02:12:45 UTC] [INFO] Server is initializing...
+[2018/01/09 02:12:45 UTC] [INFO] Pinging SQL master database
+[2018/01/09 02:12:45 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 02:12:45 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 02:12:45 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 02:12:45 UTC] [INFO] Starting up plugins
+[2018/01/09 02:12:46 UTC] [INFO] Activated jira plugin
+[2018/01/09 02:12:46 UTC] [INFO] Starting Server...
+[2018/01/09 02:12:46 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 02:12:46 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 02:12:46 UTC] [INFO] Initializing job API routes
+[2018/01/09 02:12:46 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 02:12:46 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 02:12:46 UTC] [INFO] Starting workers
+[2018/01/09 02:12:46 UTC] [INFO] Starting schedulers.
+[2018/01/09 02:13:12 UTC] [INFO] Stopping schedulers.
+[2018/01/09 02:13:12 UTC] [INFO] Schedulers stopped.
+[2018/01/09 02:13:12 UTC] [INFO] Stopped workers
+[2018/01/09 02:13:12 UTC] [INFO] Stopping Server...
+[2018/01/09 02:13:12 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 02:13:12 UTC] [INFO] Shutting down plugins
+[2018/01/09 02:13:12 UTC] [INFO] Closing SqlStore
+[2018/01/09 02:38:08 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 02:38:08 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 02:38:08 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 02:38:08 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 02:38:08 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 02:38:08 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 02:38:08 UTC] [INFO] Server is initializing...
+[2018/01/09 02:38:08 UTC] [INFO] Pinging SQL master database
+[2018/01/09 02:38:08 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 02:38:08 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 02:38:08 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 02:38:08 UTC] [INFO] Starting up plugins
+[2018/01/09 02:38:09 UTC] [INFO] Activated jira plugin
+[2018/01/09 02:38:09 UTC] [INFO] Starting Server...
+[2018/01/09 02:38:09 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 02:38:09 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 02:38:09 UTC] [INFO] Initializing job API routes
+[2018/01/09 02:38:09 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 02:38:09 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 02:38:09 UTC] [INFO] Starting workers
+[2018/01/09 02:38:09 UTC] [INFO] Starting schedulers.
+[2018/01/09 02:38:27 UTC] [INFO] Stopping schedulers.
+[2018/01/09 02:38:27 UTC] [INFO] Schedulers stopped.
+[2018/01/09 02:38:27 UTC] [INFO] Stopped workers
+[2018/01/09 02:38:27 UTC] [INFO] Stopping Server...
+[2018/01/09 02:38:27 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 02:38:27 UTC] [INFO] Shutting down plugins
+[2018/01/09 02:38:27 UTC] [INFO] Closing SqlStore
+[2018/01/09 02:39:03 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 02:39:03 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 02:39:03 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 02:39:03 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 02:39:03 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 02:39:03 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 02:39:03 UTC] [INFO] Server is initializing...
+[2018/01/09 02:39:03 UTC] [INFO] Pinging SQL master database
+[2018/01/09 02:39:03 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 02:39:03 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 02:39:03 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 02:39:03 UTC] [INFO] Starting up plugins
+[2018/01/09 02:39:04 UTC] [INFO] Activated jira plugin
+[2018/01/09 02:39:04 UTC] [INFO] Starting Server...
+[2018/01/09 02:39:04 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 02:39:04 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 02:39:04 UTC] [INFO] Initializing job API routes
+[2018/01/09 02:39:04 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 02:39:04 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 02:39:04 UTC] [INFO] Starting workers
+[2018/01/09 02:39:04 UTC] [INFO] Starting schedulers.
+[2018/01/09 02:39:35 UTC] [INFO] Stopping schedulers.
+[2018/01/09 02:39:35 UTC] [INFO] Schedulers stopped.
+[2018/01/09 02:39:35 UTC] [INFO] Stopped workers
+[2018/01/09 02:39:35 UTC] [INFO] Stopping Server...
+[2018/01/09 02:39:35 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 02:39:35 UTC] [INFO] Shutting down plugins
+[2018/01/09 02:39:35 UTC] [INFO] Closing SqlStore
+[2018/01/09 02:39:55 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 02:39:55 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 02:39:55 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 02:39:55 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 02:39:55 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 02:39:55 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 02:39:55 UTC] [INFO] Server is initializing...
+[2018/01/09 02:39:55 UTC] [INFO] Pinging SQL master database
+[2018/01/09 02:39:55 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 02:39:55 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 02:39:55 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 02:39:55 UTC] [INFO] Starting up plugins
+[2018/01/09 02:39:55 UTC] [INFO] Activated jira plugin
+[2018/01/09 02:39:55 UTC] [INFO] Starting Server...
+[2018/01/09 02:39:55 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 02:39:55 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 02:39:55 UTC] [INFO] Initializing job API routes
+[2018/01/09 02:39:55 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 02:39:55 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 02:39:55 UTC] [INFO] Starting workers
+[2018/01/09 02:39:55 UTC] [INFO] Starting schedulers.
+[2018/01/09 02:41:18 UTC] [INFO] Stopping schedulers.
+[2018/01/09 02:41:18 UTC] [INFO] Schedulers stopped.
+[2018/01/09 02:41:18 UTC] [INFO] Stopped workers
+[2018/01/09 02:41:18 UTC] [INFO] Stopping Server...
+[2018/01/09 02:41:18 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 02:41:18 UTC] [INFO] Shutting down plugins
+[2018/01/09 02:41:18 UTC] [INFO] Closing SqlStore
+[2018/01/09 02:42:34 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 02:42:34 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 02:42:34 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 02:42:34 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 02:42:34 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 02:42:34 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 02:42:34 UTC] [INFO] Server is initializing...
+[2018/01/09 02:42:34 UTC] [INFO] Pinging SQL master database
+[2018/01/09 02:42:34 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 02:42:34 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 02:42:34 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 02:42:34 UTC] [INFO] Starting up plugins
+[2018/01/09 02:42:35 UTC] [INFO] Activated jira plugin
+[2018/01/09 02:42:35 UTC] [INFO] Starting Server...
+[2018/01/09 02:42:35 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 02:42:35 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 02:42:35 UTC] [INFO] Initializing job API routes
+[2018/01/09 02:42:35 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 02:42:35 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 02:42:35 UTC] [INFO] Starting workers
+[2018/01/09 02:42:35 UTC] [INFO] Starting schedulers.
+[2018/01/09 02:42:55 UTC] [INFO] Stopping schedulers.
+[2018/01/09 02:42:55 UTC] [INFO] Schedulers stopped.
+[2018/01/09 02:42:55 UTC] [INFO] Stopped workers
+[2018/01/09 02:42:55 UTC] [INFO] Stopping Server...
+[2018/01/09 02:42:55 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 02:42:55 UTC] [INFO] Shutting down plugins
+[2018/01/09 02:42:55 UTC] [INFO] Closing SqlStore
+[2018/01/09 02:53:31 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 02:53:31 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 02:53:31 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 02:53:31 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 02:53:31 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 02:53:31 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 02:53:31 UTC] [INFO] Server is initializing...
+[2018/01/09 02:53:31 UTC] [INFO] Pinging SQL master database
+[2018/01/09 02:53:32 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 02:53:32 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 02:53:32 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 02:53:32 UTC] [INFO] Starting up plugins
+[2018/01/09 02:53:32 UTC] [INFO] Activated jira plugin
+[2018/01/09 02:53:32 UTC] [INFO] Starting Server...
+[2018/01/09 02:53:32 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 02:53:32 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 02:53:32 UTC] [INFO] Initializing job API routes
+[2018/01/09 02:53:32 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 02:53:32 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 02:53:33 UTC] [INFO] Starting workers
+[2018/01/09 02:53:33 UTC] [INFO] Starting schedulers.
+[2018/01/09 02:53:36 UTC] [INFO] Stopping schedulers.
+[2018/01/09 02:53:36 UTC] [INFO] Schedulers stopped.
+[2018/01/09 02:53:43 UTC] [INFO] Stopped workers
+[2018/01/09 02:53:43 UTC] [INFO] Stopping Server...
+[2018/01/09 02:53:43 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 02:53:43 UTC] [INFO] Shutting down plugins
+[2018/01/09 02:53:43 UTC] [INFO] Closing SqlStore
+[2018/01/09 02:54:00 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 02:54:00 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 02:54:00 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 02:54:00 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 02:54:00 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 02:54:00 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 02:54:00 UTC] [INFO] Server is initializing...
+[2018/01/09 02:54:00 UTC] [INFO] Pinging SQL master database
+[2018/01/09 02:54:00 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 02:54:00 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 02:54:00 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 02:54:00 UTC] [INFO] Starting up plugins
+[2018/01/09 02:54:01 UTC] [INFO] Activated jira plugin
+[2018/01/09 02:54:01 UTC] [INFO] Starting Server...
+[2018/01/09 02:54:01 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 02:54:01 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 02:54:01 UTC] [INFO] Initializing job API routes
+[2018/01/09 02:54:01 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 02:54:01 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 02:54:02 UTC] [INFO] Starting workers
+[2018/01/09 02:54:02 UTC] [INFO] Starting schedulers.
+[2018/01/09 03:01:00 UTC] [INFO] Stopping schedulers.
+[2018/01/09 03:01:00 UTC] [INFO] Schedulers stopped.
+[2018/01/09 03:01:00 UTC] [INFO] Stopped workers
+[2018/01/09 03:01:00 UTC] [INFO] Stopping Server...
+[2018/01/09 03:01:00 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 03:01:00 UTC] [INFO] Shutting down plugins
+[2018/01/09 03:01:00 UTC] [INFO] Closing SqlStore
+[2018/01/09 03:01:20 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 03:01:20 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 03:01:20 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 03:01:20 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 03:01:20 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 03:01:20 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 03:01:20 UTC] [INFO] Server is initializing...
+[2018/01/09 03:01:20 UTC] [INFO] Pinging SQL master database
+[2018/01/09 03:01:20 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 03:01:20 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 03:01:20 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 03:01:20 UTC] [INFO] Starting up plugins
+[2018/01/09 03:01:21 UTC] [INFO] Activated jira plugin
+[2018/01/09 03:01:21 UTC] [INFO] Starting Server...
+[2018/01/09 03:01:21 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 03:01:21 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 03:01:21 UTC] [INFO] Initializing job API routes
+[2018/01/09 03:01:21 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 03:01:21 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 03:01:21 UTC] [INFO] Starting workers
+[2018/01/09 03:01:21 UTC] [INFO] Starting schedulers.
+[2018/01/09 03:01:29 UTC] [INFO] Stopping schedulers.
+[2018/01/09 03:01:29 UTC] [INFO] Schedulers stopped.
+[2018/01/09 03:01:29 UTC] [INFO] Stopped workers
+[2018/01/09 03:01:29 UTC] [INFO] Stopping Server...
+[2018/01/09 03:01:29 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 03:01:29 UTC] [INFO] Shutting down plugins
+[2018/01/09 03:01:29 UTC] [INFO] Closing SqlStore
+[2018/01/09 03:05:38 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 03:05:38 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 03:05:38 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 03:05:38 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 03:05:38 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 03:05:38 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 03:05:38 UTC] [INFO] Server is initializing...
+[2018/01/09 03:05:38 UTC] [INFO] Pinging SQL master database
+[2018/01/09 03:05:38 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 03:05:38 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 03:05:38 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 03:05:38 UTC] [INFO] Starting up plugins
+[2018/01/09 03:05:39 UTC] [INFO] Activated jira plugin
+[2018/01/09 03:05:39 UTC] [INFO] Starting Server...
+[2018/01/09 03:05:39 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 03:05:39 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 03:05:39 UTC] [INFO] Initializing job API routes
+[2018/01/09 03:05:39 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 03:05:39 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 03:05:39 UTC] [INFO] Starting workers
+[2018/01/09 03:05:39 UTC] [INFO] Starting schedulers.
+[2018/01/09 03:08:08 UTC] [INFO] Stopping schedulers.
+[2018/01/09 03:08:08 UTC] [INFO] Schedulers stopped.
+[2018/01/09 03:08:08 UTC] [INFO] Stopped workers
+[2018/01/09 03:08:08 UTC] [INFO] Stopping Server...
+[2018/01/09 03:08:08 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 03:08:08 UTC] [INFO] Shutting down plugins
+[2018/01/09 03:08:08 UTC] [INFO] Closing SqlStore
+[2018/01/09 03:08:43 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 03:08:43 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 03:08:43 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 03:08:43 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 03:08:43 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 03:08:43 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 03:08:43 UTC] [INFO] Server is initializing...
+[2018/01/09 03:08:43 UTC] [INFO] Pinging SQL master database
+[2018/01/09 03:08:43 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 03:08:43 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 03:08:43 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 03:08:43 UTC] [INFO] Starting up plugins
+[2018/01/09 03:08:43 UTC] [INFO] Activated jira plugin
+[2018/01/09 03:08:43 UTC] [INFO] Starting Server...
+[2018/01/09 03:08:43 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 03:08:43 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 03:08:43 UTC] [INFO] Initializing job API routes
+[2018/01/09 03:08:43 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 03:08:43 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 03:08:43 UTC] [INFO] Starting workers
+[2018/01/09 03:08:43 UTC] [INFO] Starting schedulers.
+[2018/01/09 03:08:49 UTC] [INFO] Stopping schedulers.
+[2018/01/09 03:08:49 UTC] [INFO] Schedulers stopped.
+[2018/01/09 03:08:50 UTC] [INFO] Stopped workers
+[2018/01/09 03:08:50 UTC] [INFO] Stopping Server...
+[2018/01/09 03:08:50 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 03:08:50 UTC] [INFO] Shutting down plugins
+[2018/01/09 03:08:50 UTC] [INFO] Closing SqlStore
+[2018/01/09 03:09:30 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 03:09:30 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 03:09:30 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 03:09:30 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 03:09:30 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 03:09:30 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 03:09:30 UTC] [INFO] Server is initializing...
+[2018/01/09 03:09:30 UTC] [INFO] Pinging SQL master database
+[2018/01/09 03:09:31 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 03:09:31 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 03:09:31 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 03:09:31 UTC] [INFO] Starting up plugins
+[2018/01/09 03:09:31 UTC] [INFO] Activated jira plugin
+[2018/01/09 03:09:31 UTC] [INFO] Starting Server...
+[2018/01/09 03:09:31 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 03:09:31 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 03:09:31 UTC] [INFO] Initializing job API routes
+[2018/01/09 03:09:31 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 03:09:31 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 03:09:31 UTC] [INFO] Starting workers
+[2018/01/09 03:09:31 UTC] [INFO] Starting schedulers.
+[2018/01/09 03:09:46 UTC] [INFO] Stopping schedulers.
+[2018/01/09 03:09:46 UTC] [INFO] Schedulers stopped.
+[2018/01/09 03:09:46 UTC] [INFO] Stopped workers
+[2018/01/09 03:09:46 UTC] [INFO] Stopping Server...
+[2018/01/09 03:09:46 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 03:09:46 UTC] [INFO] Shutting down plugins
+[2018/01/09 03:09:46 UTC] [INFO] Closing SqlStore
+[2018/01/09 03:10:07 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 03:10:07 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 03:10:07 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 03:10:07 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 03:10:07 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 03:10:07 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 03:10:07 UTC] [INFO] Server is initializing...
+[2018/01/09 03:10:07 UTC] [INFO] Pinging SQL master database
+[2018/01/09 03:10:07 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 03:10:07 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 03:10:07 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 03:10:07 UTC] [INFO] Starting up plugins
+[2018/01/09 03:10:08 UTC] [INFO] Activated jira plugin
+[2018/01/09 03:10:08 UTC] [INFO] Starting Server...
+[2018/01/09 03:10:08 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 03:10:08 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 03:10:08 UTC] [INFO] Initializing job API routes
+[2018/01/09 03:10:08 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 03:10:08 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 03:10:08 UTC] [INFO] Starting workers
+[2018/01/09 03:10:08 UTC] [INFO] Starting schedulers.
+[2018/01/09 03:26:27 UTC] [INFO] Stopping schedulers.
+[2018/01/09 03:26:27 UTC] [INFO] Schedulers stopped.
+[2018/01/09 03:26:27 UTC] [INFO] Stopped workers
+[2018/01/09 03:26:27 UTC] [INFO] Stopping Server...
+[2018/01/09 03:26:27 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 03:26:27 UTC] [INFO] Shutting down plugins
+[2018/01/09 03:26:27 UTC] [INFO] Closing SqlStore
+[2018/01/09 03:26:57 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 03:26:57 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 03:26:57 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 03:26:57 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 03:26:57 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 03:26:57 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 03:26:57 UTC] [INFO] Server is initializing...
+[2018/01/09 03:26:57 UTC] [INFO] Pinging SQL master database
+[2018/01/09 03:26:57 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 03:26:57 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 03:26:57 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 03:26:57 UTC] [INFO] Starting up plugins
+[2018/01/09 03:26:58 UTC] [INFO] Activated jira plugin
+[2018/01/09 03:26:58 UTC] [INFO] Starting Server...
+[2018/01/09 03:26:58 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 03:26:58 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 03:26:58 UTC] [INFO] Initializing job API routes
+[2018/01/09 03:26:58 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 03:26:58 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 03:26:59 UTC] [INFO] Starting workers
+[2018/01/09 03:26:59 UTC] [INFO] Starting schedulers.
+[2018/01/09 04:38:27 UTC] [INFO] Stopping schedulers.
+[2018/01/09 04:38:27 UTC] [INFO] Schedulers stopped.
+[2018/01/09 04:38:27 UTC] [INFO] Stopped workers
+[2018/01/09 04:38:27 UTC] [INFO] Stopping Server...
+[2018/01/09 04:38:27 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 04:38:27 UTC] [INFO] Shutting down plugins
+[2018/01/09 04:38:27 UTC] [INFO] Closing SqlStore
+[2018/01/09 06:36:07 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 06:36:07 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 06:36:07 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 06:36:07 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 06:36:07 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 06:36:07 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 06:36:07 UTC] [INFO] Server is initializing...
+[2018/01/09 06:36:07 UTC] [INFO] Pinging SQL master database
+[2018/01/09 06:36:08 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 06:36:08 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 06:36:08 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 06:36:08 UTC] [INFO] Starting up plugins
+[2018/01/09 06:36:10 UTC] [INFO] Activated jira plugin
+[2018/01/09 06:36:10 UTC] [INFO] Starting Server...
+[2018/01/09 06:36:10 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 06:36:10 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 06:36:10 UTC] [INFO] Initializing job API routes
+[2018/01/09 06:36:10 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 06:36:10 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 06:36:10 UTC] [INFO] Starting workers
+[2018/01/09 06:36:10 UTC] [INFO] Starting schedulers.
+[2018/01/09 06:37:25 UTC] [INFO] Stopping schedulers.
+[2018/01/09 06:37:25 UTC] [INFO] Schedulers stopped.
+[2018/01/09 06:37:25 UTC] [INFO] Stopped workers
+[2018/01/09 06:37:25 UTC] [INFO] Stopping Server...
+[2018/01/09 06:37:25 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 06:37:25 UTC] [INFO] Shutting down plugins
+[2018/01/09 06:37:25 UTC] [INFO] Closing SqlStore
+[2018/01/09 06:38:51 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 06:38:51 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 06:38:51 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 06:38:51 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 06:38:51 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 06:38:51 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 06:38:51 UTC] [INFO] Server is initializing...
+[2018/01/09 06:38:51 UTC] [INFO] Pinging SQL master database
+[2018/01/09 06:38:51 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 06:38:51 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 06:38:51 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 06:38:51 UTC] [INFO] Starting up plugins
+[2018/01/09 06:38:53 UTC] [INFO] Activated jira plugin
+[2018/01/09 06:38:53 UTC] [INFO] Starting Server...
+[2018/01/09 06:38:53 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 06:38:53 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 06:38:53 UTC] [INFO] Initializing job API routes
+[2018/01/09 06:38:53 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 06:38:53 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 06:38:53 UTC] [INFO] Starting workers
+[2018/01/09 06:38:53 UTC] [INFO] Starting schedulers.
+[2018/01/09 06:41:07 UTC] [INFO] Stopping schedulers.
+[2018/01/09 06:41:46 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 06:41:46 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 06:41:46 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 06:41:46 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 06:41:46 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 06:41:46 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 06:41:46 UTC] [INFO] Server is initializing...
+[2018/01/09 06:41:47 UTC] [INFO] Pinging SQL master database
+[2018/01/09 06:41:47 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 06:41:47 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 06:41:47 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 06:41:47 UTC] [INFO] Starting up plugins
+[2018/01/09 06:41:48 UTC] [INFO] Activated jira plugin
+[2018/01/09 06:41:48 UTC] [INFO] Starting Server...
+[2018/01/09 06:41:48 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 06:41:48 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 06:41:48 UTC] [INFO] Initializing job API routes
+[2018/01/09 06:41:48 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 06:41:48 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 06:41:48 UTC] [INFO] Starting workers
+[2018/01/09 06:41:48 UTC] [INFO] Starting schedulers.
+[2018/01/09 06:42:27 UTC] [INFO] Stopping schedulers.
+[2018/01/09 06:42:27 UTC] [INFO] Schedulers stopped.
+[2018/01/09 06:42:27 UTC] [INFO] Stopped workers
+[2018/01/09 06:42:27 UTC] [INFO] Stopping Server...
+[2018/01/09 06:42:27 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 06:42:27 UTC] [INFO] Shutting down plugins
+[2018/01/09 06:42:27 UTC] [INFO] Closing SqlStore
+[2018/01/09 06:45:48 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 06:45:48 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 06:45:48 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 06:45:48 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 06:45:48 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 06:45:48 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 06:45:48 UTC] [INFO] Server is initializing...
+[2018/01/09 06:45:48 UTC] [INFO] Pinging SQL master database
+[2018/01/09 06:45:49 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 06:45:49 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 06:45:49 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 06:45:49 UTC] [INFO] Starting up plugins
+[2018/01/09 06:45:51 UTC] [INFO] Activated jira plugin
+[2018/01/09 06:45:51 UTC] [INFO] Starting Server...
+[2018/01/09 06:45:51 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 06:45:51 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 06:45:51 UTC] [INFO] Initializing job API routes
+[2018/01/09 06:45:51 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 06:45:51 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 06:45:51 UTC] [INFO] Starting workers
+[2018/01/09 06:45:51 UTC] [INFO] Starting schedulers.
+[2018/01/09 06:51:04 UTC] [INFO] Stopping schedulers.
+[2018/01/09 06:51:04 UTC] [INFO] Schedulers stopped.
+[2018/01/09 06:51:04 UTC] [INFO] Stopped workers
+[2018/01/09 06:51:04 UTC] [INFO] Stopping Server...
+[2018/01/09 06:51:04 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 06:51:04 UTC] [INFO] Shutting down plugins
+[2018/01/09 06:51:04 UTC] [INFO] Closing SqlStore
+[2018/01/09 06:53:14 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 06:53:14 UTC] [INFO] Current version is 4.5.0 (4.5.0/Fri Dec 15 23:15:33 UTC 2017/03f5c939deb4a6ab2fd01639b5570799e4118bab/dc1a5c62b18d87b9effd4ec249f29c77d1ffdde0)
+[2018/01/09 06:53:14 UTC] [INFO] Enterprise Enabled: true
+[2018/01/09 06:53:14 UTC] [INFO] Current working directory is /mattermost
+[2018/01/09 06:53:14 UTC] [INFO] Loaded config file from /mattermost/config/config.json
+[2018/01/09 06:53:15 UTC] [INFO] Loaded system translations for 'en' from '/mattermost/i18n/en.json'
+[2018/01/09 06:53:15 UTC] [INFO] Server is initializing...
+[2018/01/09 06:53:15 UTC] [INFO] Pinging SQL master database
+[2018/01/09 06:53:16 UTC] [INFO] Initializing plugin: ldapextras
+[2018/01/09 06:53:16 UTC] [INFO] Able to write files to local storage.
+[2018/01/09 06:53:16 UTC] [INFO] License key from https://mattermost.com required to unlock enterprise features.
+[2018/01/09 06:53:16 UTC] [INFO] Starting up plugins
+[2018/01/09 06:53:17 UTC] [INFO] Activated jira plugin
+[2018/01/09 06:53:17 UTC] [INFO] Starting Server...
+[2018/01/09 06:53:17 UTC] [INFO] RateLimiter is enabled
+[2018/01/09 06:53:17 UTC] [INFO] Server is listening on [::]:80
+[2018/01/09 06:53:17 UTC] [INFO] Initializing job API routes
+[2018/01/09 06:53:18 UTC] [INFO] API version 3 is scheduled for deprecation. Please see https://api.mattermost.com for details.
+[2018/01/09 06:53:18 UTC] [INFO] Starting 2 websocket hubs
+[2018/01/09 06:53:18 UTC] [INFO] Starting workers
+[2018/01/09 06:53:18 UTC] [INFO] Starting schedulers.
+[2018/01/09 06:58:00 UTC] [INFO] Stopping schedulers.
+[2018/01/09 06:58:00 UTC] [INFO] Schedulers stopped.
+[2018/01/09 06:58:00 UTC] [INFO] Stopped workers
+[2018/01/09 06:58:00 UTC] [INFO] Stopping Server...
+[2018/01/09 06:58:00 UTC] [INFO] stopping websocket hub connections
+[2018/01/09 06:58:00 UTC] [INFO] Shutting down plugins
+[2018/01/09 06:58:00 UTC] [INFO] Closing SqlStore

@@ -1,0 +1,155 @@
+version: "2"
+
+services:
+
+  db:
+    build: db
+    restart: unless-stopped
+    volumes:
+      - ./volumes/db/var/lib/postgresql/data:/var/lib/postgresql/data
+      - /etc/localtime:/etc/localtime:ro
+    environment:
+      - POSTGRES_USER=mmuser
+      - POSTGRES_PASSWORD=ThisTestPassword
+      - POSTGRES_DB=mattermost
+    # uncomment the following to enable backup
+    #  - AWS_ACCESS_KEY_ID=XXXX
+    #  - AWS_SECRET_ACCESS_KEY=XXXX
+    #  - WALE_S3_PREFIX=s3://BUCKET_NAME/PATH
+    #  - AWS_REGION=us-east-1
+
+  app:
+    build:
+      context: app
+      # comment out 2 following lines for team edition
+      # args:
+      #   - edition=team
+    restart: unless-stopped
+    volumes:
+      - ./volumes/app/mattermost/config:/mattermost/config:rw
+      - ./volumes/app/mattermost/data:/mattermost/data:rw
+      - ./volumes/app/mattermost/logs:/mattermost/logs:rw
+      - /etc/localtime:/etc/localtime:ro
+    environment:
+      # set same as db credentials and dbname
+      - MM_USERNAME=mmuser
+      - MM_PASSWORD=ThisTestPassword
+      - MM_DBNAME=mattermost
+      # in case your config is not in default location
+      #- MM_CONFIG=/mattermost/config/config.json
+
+  web:
+    build: web
+    ports:
+      - "5001:80"
+      - "443:443"
+    restart: unless-stopped
+    volumes:
+      # This directory must have cert files if you want to enable SSL
+      - ./volumes/web/cert:/cert:ro
+      - /etc/localtime:/etc/localtime:ro
+    # Uncomment for SSL
+    # environment:
+    #  - MATTERMOST_ENABLE_SSL=true
+  etherpad:
+    build: etherpad
+    ports:
+      - "9001:9001"
+    restart: unless-stopped
+  wekandb:
+    # All Wekan data is stored in MongoDB. For backup and restore, see:
+    #   https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data
+    image: mongo:3.2.18
+    container_name: wekan-db1
+    restart: always
+    command: mongod --smallfiles --oplogSize 128
+    networks:
+      - wekan-tier
+    expose:
+      - 27017
+    volumes:
+      - wekan-db:/data/db
+      - wekan-db-dump:/dump
+
+  mumble:
+    image: luzifer/mumble
+    container_name: mumble_server
+    restart: always
+    ports:
+      - "64738:64738"
+      - "64738:64738/udp"
+  ethercalc:
+    image: audreyt/ethercalc
+    container_name: ethercalc
+    restart: always
+    ports:
+      - "8000:8000"
+
+  reichat:
+    image: uzyexe/reichat
+    container_name: reichat
+    restart: always
+    ports:
+      - "10133:10133"
+  wekan:
+    # Wekan container only has Node.js and related code,
+    # there is no data stored here.
+    #
+    # Old Wekan that uses Node 4.8.6 and Meteor 1.4:
+    image: wekanteam/wekan:latest
+    # New Wekan that uses Node 6.12 and Meteor 1.6:
+    # image: wekanteam/wekan:meteor-1.6
+    container_name: wekan-app1
+    restart: always
+    networks:
+      - wekan-tier
+    #---------------------------------------------------------------
+    # For running Wekan in different port like 3000, use: 3000:80
+    ports:
+      - 3000:80
+    #---------------------------------------------------------------
+    # Change ROOT_URL to your real Wekan URL, for example:
+    #   http://example.com
+    #   http://example.com/wekan
+    #   http://192.168.1.100
+    #---------------------------------------------------------------
+    # Email settings are required in both MAIL_URL and Admin Panel,
+    #   see https://github.com/wekan/wekan/wiki/Troubleshooting-Mail
+    #   For SSL in email, change smtp:// to smtps://
+    #---------------------------------------------------------------
+    # Not needed on Docker, but if you had installed from source,
+    #   you could also have setup Wekan Node.js port at localhost
+    #   with setting: PORT=3000
+    #   and have Nginx proxy to port 3000, see Wekan wiki.
+    environment:
+      - MONGO_URL=mongodb://wekandb:27017/wekan
+      - ROOT_URL=http://example.com
+      - MAIL_URL=smtp://user:pass@mailserver.example.com:25/
+      - MAIL_FROM='Example Wekan Support <support@example.com>'
+    depends_on:
+      - wekandb
+
+#------------------------------------------------------------------
+#  When using Wekan both at office LAN and remote VPN:
+#    1) Have above Wekan docker container config with LAN IP address
+#    2) Copy all of above Wekan config below, change name to different
+#       like wekan2 or wekanvpn, and change ROOT_URL to server VPN IP
+#       address.
+#    3) This way both Wekan containers can use same MongoDB database
+#       and see the same Wekan boards.
+#    4) You could also add 3rd Wekan container for 3rd network etc.
+#------------------------------------------------------------------
+#  wekan2:
+#    ....COPY CONFIG FROM ABOVE TO HERE...
+#    environment:
+#      - ROOT_URL='http://10.10.10.10'
+#      ...COPY CONFIG FROM ABOVE TO HERE...
+
+volumes:
+  wekan-db:
+    driver: local
+  wekan-db-dump:
+    driver: local
+
+networks:
+  wekan-tier:
