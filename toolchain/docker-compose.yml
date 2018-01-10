@@ -51,8 +51,8 @@ services:
     # Uncomment for SSL
     # environment:
     #  - MATTERMOST_ENABLE_SSL=true
-  etherpad:
-    build: etherpad
+  pad:
+    build: pad
     ports:
       - "9001:9001"
     restart: unless-stopped
